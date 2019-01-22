@@ -28,7 +28,7 @@ npm -v
 example:
 ```
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
-export PATH=$JAVA_HOME/bin:$PATH:.
+export PATH=$JAVA_HOME/bin:$PATH
 source /etc/profile
 ```
 
@@ -36,12 +36,11 @@ source /etc/profile
 在[这里](https://www.androiddevtools.cn/)下载
 下载完后解压进入tools目录，运行./android sdk
 安装platform-tools、build-tools
-在/etc/profile中添加环境变量
+在~/.bash_profile中添加环境变量
 ```
 export ANDROID_HOME=mysdk_dir
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-source /etc/profile
+PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+source ~/.bash_profile
 ```
 
 ### appium server
