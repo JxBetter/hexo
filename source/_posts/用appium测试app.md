@@ -40,6 +40,7 @@ source /etc/profile
 ```
 export ANDROID_HOME=mysdk_dir
 PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+export PATH
 source ~/.bash_profile
 ```
 
