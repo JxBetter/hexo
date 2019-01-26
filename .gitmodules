@@ -1,0 +1,3 @@
+[submodule "themes/next/source/lib/canvas-nest"]
+	path = themes/next/source/lib/canvas-nest
+	url = https://github.com/theme-next/theme-next-canvas-nest
